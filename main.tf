@@ -4,4 +4,6 @@ module "vpc" {
   subnets=var.subnets
   env=var.env
   AZ=var.AZ
+  igw=var.igw
+  ngw=var.ngw
 }
